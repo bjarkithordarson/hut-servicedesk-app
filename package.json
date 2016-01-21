@@ -1,5 +1,11 @@
 {
-	"name"		: "hut-servicedesk-app",
-	"version"	: "0.1.0",
-	"main"		: "main.js"
+  "name": "hut-servicedesk-app",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron-plugins": "0.0.4"
+  },
+  "plugins": {
+  	"hut-servicedesk-app-info-plugin": "^0.0.1"
+  }
 }

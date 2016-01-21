@@ -49,6 +49,7 @@ nav {
 		background: #fff;
 		background: #555;
 		color: #fff;
+		border-top: 1px solid #777;
 	}
 	nav li a {
 		display: inline-block;
@@ -69,6 +70,7 @@ nav {
 	}
 	nav li:hover {
 		background: #444;
+		border-top: 1px solid #666;
 	}
 	nav li a:hover .caption,
 	nav li a:focus .caption,
@@ -79,6 +81,7 @@ nav {
 		background: #eee;
 		color: #000;
 		font-weight: bold;
+		border-top: 1px solid #fff;
 	}
 
 .section-container {
@@ -89,6 +92,7 @@ nav {
 		line-height: 200px;
 		font-size: 2em;
 		color: #666;
+		display: none;
 	}
 .ui-noselect {
 	-webkit-user-select: none;
