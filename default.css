@@ -1,5 +1,5 @@
 body {
-	background: transparent;
+	background: #eee;
 	margin: 0;
 	font-family: "Segoe UI", Arial, sans-serif;
 	font-size: 10px;
@@ -7,17 +7,29 @@ body {
 .title-bar {
 	background: #333;
 	color: #fff;
-	height: 40px;
+	height: 35px;
 	font-size: 1.4em;
 	-webkit-app-region: drag;
 }
 	.title-bar .caption {
-		line-height: 40px;
+		line-height: 35px;
 		text-indent: 15px;
 	}
 	.title-bar .controls {
-
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-family: "Segoe MDL2 Assets", "Segoe UI Symbol";
 	}
+		.title-bar .controls a {
+			line-height: 35px;
+			padding: 0 20px;
+			background: #555;
+			display: inline-block;
+		}
+		.title-bar .controls a:hover {
+			background: #555;
+		}
 
 nav {
 	overflow: hidden;
@@ -32,8 +44,6 @@ nav {
 	}
 	nav li {
 		display: inline-block;
-		line-height: 40px;
-		padding: 0 15px;
 		font-size: 1.4em;
 		vertical-align: bottom;
 		background: #fff;
@@ -41,19 +51,45 @@ nav {
 		color: #fff;
 	}
 	nav li a {
+		display: inline-block;
+		line-height: 40px;
+		padding: 0 15px;
 		color: inherit;
 		text-decoration: inherit;
 	}
+	nav li i {
+		display: inline-block;
+		font-size: 1.4em;
+	}
+	nav li i+.caption {
+		margin: 0 0 0 10px;
+	}
+	nav li .caption {
+		display: none;
+	}
+	nav li:hover {
+		background: #444;
+	}
+	nav li a:hover .caption,
+	nav li a:focus .caption,
+	nav li.selected .caption {
+		display: inline-block;
+	}
 	nav li.selected {
-		background: #fff;
+		background: #eee;
 		color: #000;
 		font-weight: bold;
 	}
 
 .section-container {
-	min-height: 600px;
-	background: #fff;
+	background: #eee;
 }
+	.section-container .loader {
+		text-align: center;
+		line-height: 200px;
+		font-size: 2em;
+		color: #666;
+	}
 .ui-noselect {
 	-webkit-user-select: none;
 	user-select: none;

@@ -14,11 +14,10 @@ app.on('window-all-closed', function() {
 
 app.on('ready', function() {
 	mainWindow = new BrowserWindow({
-		width: 1900,
-		height: 600,
+		width: 900,
+		height: 1000,
 		autoHideMenuBar: true,
 		frame: false,
-		transparent: true,
 		useContentSize: true
 	});
 
