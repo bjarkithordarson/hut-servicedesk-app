@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "main": "main.js",
   "devDependencies": {
-    "electron-plugins": "0.0.4"
+    "electron-plugins": "0.0.4",
+    "electron-updater": "^0.2.3"
   },
   "plugins": {
-  	"hut-servicedesk-app-info-plugin": "^0.0.1"
+    "hut-servicedesk-app-info-plugin": "~0.0.1"
+  },
+  "dependencies": {
+    "electron-plugins": "0.0.4",
+    "electron-updater": "^0.2.3"
   }
 }
