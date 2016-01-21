@@ -1,0 +1,328 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"postMe",
+				"postMessageToChannel"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"currne",
+				"current_hash"
+			],
+			[
+				"tra",
+				"travel_time"
+			],
+			[
+				"infowindow",
+				"infowindow"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ftps",
+				"FTPSync: Check current file"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/BjarkiRafn/Documents/GitHub/hut-servicedesk-app"
+	],
+	"file_history":
+	[
+		"//dev-thordarson/thordarson/hutbot/package.json",
+		"//dev-thordarson/thordarson/hutbot/index.js",
+		"/C/Users/BjarkiRafn/Documents/projects/1550-service-app/package.json",
+		"/C/Users/BjarkiRafn/Documents/projects/1550-service-app/pages/dashboard.html",
+		"/C/Users/BjarkiRafn/Documents/projects/1550-service-app/assets/css/default.css",
+		"/C/Users/BjarkiRafn/Documents/projects/1550-service-app/index.html",
+		"/C/Users/BjarkiRafn/Documents/projects/1550-service-app/index.js",
+		"/Z/skyrslur/phonecalls/templates/calls.html",
+		"/Z/skyrslur/phonecalls/templates/calls.js",
+		"/Z/skyrslur/skyrslur.css",
+		"/Z/skyrslur/skyrslur.html",
+		"/Z/skyrslur/router.js",
+		"/Z/skyrslur/about/templates/about.html",
+		"/Z/skyrslur/phonecalls/templates/wrapup.js",
+		"/Z/skyrslur/skyrslur.js",
+		"/Z/skyrslur/phonecalls/templates/wrapup.html",
+		"/Z/skyrslur/phonecalls/templates/agents.js",
+		"/Z/skyrslur/phonecalls/templates/agents.html",
+		"/Z/skyrslur/.meteor/local/build/main.js",
+		"/C/Users/BjarkiRafn/Documents/dev/skyrslur/basicData.js",
+		"/C/Users/BjarkiRafn/Documents/dev/skyrslur/data.json",
+		"/C/Users/BjarkiRafn/Documents/dev/skyrslur/style.css",
+		"/C/Users/BjarkiRafn/Documents/dev/skyrslur/index.html",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/css/islandsstofa-kortalausn.css",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/tpl/flight_path_infowindow.html",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/tpl/controls.html",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/js/islandsstofa-kortalausn.js",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-includes/js/customize-preview.js",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/themes/enfold/framework/php/avia_shortcodes/preview-shortcode-external.php",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-includes/css/wp-pointer-rtl.css",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/ftpsync.settings.old",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/ftpsync.settings",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/tpl/site_infowindow.html",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/tpl/flightpath_infowindow.html",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/themes/enfold/functions-enfold.php",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/themes/data-center-iceland/footer.php",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/inc/functions.php",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/js/init.php",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/islandsstofa-kortalausn.php",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/plugins/islandsstofa-kortalausn/inc/shortcodes.php",
+		"/C/Users/BjarkiRafn/tmp/pendo.is/configuration.php",
+		"/C/Users/BjarkiRafn/Downloads/78_pendois.sql",
+		"/C/Users/BjarkiRafn/Downloads/78_pendois (1).sql",
+		"/C/Users/BjarkiRafn/tmp/pendo.is/includes/database.mysqli.php",
+		"/C/Users/BjarkiRafn/tmp/pendo.is/includes/database.php",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.invest.is/wp-content/themes/data-center-iceland/includes/loop-location.php",
+		"/C/Users/BjarkiRafn/AppData/Roaming/Sublime Text 3/Local/License.sublime_license",
+		"/C/Users/BjarkiRafn/Documents/dev/datacenter.islandsstofa.is/ftpsync.settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\BjarkiRafn\\Documents\\dev\\datacenter.invest.is\\wp-content\\themes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"/>\n",
+			"app",
+			"phonecalls",
+			"redrawChart",
+			"10",
+			"dataset",
+			"10",
+			"100",
+			"order",
+			"þróun",
+			"Þróun",
+			"if",
+			"unless",
+			"if",
+			"unless",
+			"/",
+			"if",
+			"sectionAgents",
+			"sectionSummary",
+			"option",
+			"data_sort",
+			"next_hash",
+			"assemble_hash_string",
+			"console.log",
+			"next",
+			"next_hash",
+			"next_key",
+			"parse_",
+			"prev_item",
+			"process_data",
+			"next_item",
+			"data_sort",
+			"data",
+			"el.",
+			"kl-controls",
+			"overla",
+			"mouseout",
+			"infowindow",
+			"infowindow.set",
+			"resize",
+			"div",
+			"p",
+			"mouseout",
+			"console.log",
+			"parse_",
+			"cable",
+			"flight_path",
+			"hide_info",
+			"mouseover",
+			"show_info",
+			"this.types",
+			"console.log",
+			"template",
+			"$tpl",
+			"parse_info_template",
+			"this.types",
+			"icons",
+			"show_I",
+			"show_f",
+			"show_info",
+			"get_info_template",
+			"78_",
+			"avia_post_nav",
+			"avia_post_nav(",
+			"avia_",
+			"tax",
+			"next",
+			"draw_data_ca",
+			"site",
+			"draw_data_ca",
+			"cable",
+			"excerpt",
+			"properties",
+			"10px",
+			"style",
+			"excerpt",
+			"property",
+			"options",
+			"linkable",
+			"controls"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"saga",
+			"Saga"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hut-servicedesk-app.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
