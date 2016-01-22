@@ -94,6 +94,12 @@ nav {
 		color: #666;
 		display: none;
 	}
+	.section-container .content {
+		padding: 15px;
+	}
+	.section-container .content p {
+		font-size: 1.4em;
+	}
 .ui-noselect {
 	-webkit-user-select: none;
 	user-select: none;

@@ -13,22 +13,22 @@
 		<a class="minimize">➖</a><a class="close">❌</a>
 	</div>
 </div>
-<nav class="ui-noselect">
+<nav class="ui-noselect" id="nav-tabs">
 	<ul>
-		<li class="selected"><a href="#" data-section="dashboard"><i class="fa fa-dashboard fa-lg"></i><span class="caption">Stöðuskjár</span></a></li><li>
+		<!--<li class="selected"><a href="#" data-section="dashboard"><i class="fa fa-dashboard fa-lg"></i><span class="caption">Stöðuskjár</span></a></li><li>
 		<a data-section="assets" href="#"><i class="fa fa-tv fa-lg"></i><span class="caption">Tölvur</span></a></li><li><li>
 		<a data-section="assets" href="#"><i class="fa fa-users fa-lg"></i><span class="caption">Notendur</span></a></li><li><li>
 		<a data-section="servicedesk" href="#"><i class="fa fa-tasks fa-lg"></i><span class="caption">Beiðnir</span></a></li><li>
 		<a data-section="solutions" href="#"><i class="fa fa-book fa-lg"></i><span class="caption">Lausnir</span></a></li><li>
 		<a data-section="settings" href="#"><i class="fa fa-wrench fa-lg"></i><span class="caption">Stillingar</span></a></li><li><li>
-		<a data-section="about" href="#"><i class="fa fa-info-circle fa-lg"></i><span class="caption">Upplýsingar</span></a></li>
+		<a data-section="about" href="#"><i class="fa fa-info-circle fa-lg"></i><span class="caption">Upplýsingar</span></a></li>-->
 	</ul>
 </nav>
 <div class="section-container">
 <div class="loader">Augnablik...</div>
-<div class="content"></div>
+<div id="plugin-content" class="content"></div>
 </div>
-<script type="text/javascript" src="assets/3dparty/jquery/jquery-1.12.0.min.js"></script>
+<script>window.$ = window.jQuery = require('./assets/3dparty/jquery/jquery-1.12.0.min.js');</script>
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
